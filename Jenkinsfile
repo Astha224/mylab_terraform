@@ -25,7 +25,7 @@ pipeline{
 
         stage('Publish to Nexus'){
             steps {
-                nexusArtifactUploader artifacts: [[artifactId: 'asthaDevOpsLab', classifier: '', file: 'target/asthaDevOpsLab-0.0.4.war', type: 'war']], credentialsId: '', groupId: 'com.asthadevopslab', nexusUrl: '172.20.10.111:808', nexusVersion: 'nexus2', protocol: 'http', repository: 'asthalab-snapshot', version: '0.0.4'
+                nexusArtifactUploader artifacts: [[artifactId: 'asthaDevOpsLab', classifier: '', file: 'target/asthaDevOpsLab-0.0.4.war', type: 'war']], credentialsId: 'e9526411-f47b-4d24-b61d-34a922803245', groupId: 'com.asthadevopslab', nexusUrl: '18.222.192.9:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'asthalab-snapshot', version: '0.0.4'
             }
 
 
