@@ -4,7 +4,7 @@
   <groupId>com.asthadevopslab</groupId>
   <artifactId>asthaDevOpsLab</artifactId>
   <packaging>war</packaging>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <name>asthaDevOpsLab</name>
   <url>http://maven.apache.org</url>
   <dependencies>
